@@ -8,21 +8,24 @@
 
 
 body {
-    background-color: gray;
-    background-image: url('assets/cabin.svg');
+    background-image: url('assets/Background_Website.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
 }
 /* the main container */
 
 .front-side,
 .back-side {
-  width: 254px;
-  height: 441px;
+  width: 576px;
+  height: 936px;
   position: relative;
   /* adjust this to space out the cards */
   margin: 20px auto;
   overflow: hidden;
   box-shadow: 2px 5px 15px 0px #17161694;
-  background-color:antiquewhite;
+  
 }
 
 /* .front-side{
@@ -44,8 +47,7 @@ body {
 }
 
 .icon-container{
-
-  width:80%;
+  width:50%;
   margin: 0 auto;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -53,6 +55,8 @@ body {
   grid-template-areas: 
   "a b c";
   grid-gap: 10px;
+  position: absolute;
+  top: 10px;
 }
 
 /* .circle{
