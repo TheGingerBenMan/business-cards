@@ -48,21 +48,63 @@ body {
 }
 .text-container{
   font-family: 'Jost', sans-serif;
+  position: absolute;
+  top: 300px;
+  left: auto;
 }
+h1{
+  font-family: 'Jost', sans-serif;
+  font-weight: 200; 
+  font-style: normal; 
+  font-size: 50px; 
+  line-height: 0px; 
+  text-transform: lowercase; 
+  letter-spacing: 5px;
+  text-align: left;
+  color: #ffffff;}
+
+  h2{
+      font-family: 'Jost', sans-serif;
+      font-weight: 300; 
+      font-style: normal; 
+      font-size: 30px; 
+      line-height: 0px; 
+      text-transform: lowercase; 
+      letter-spacing: 5px;
+      text-align: left;
+      color: #ffffff;}
+      
+h3{
+  font-family: 'Jost', sans-serif;
+  font-weight: 600; 
+  font-style: normal; 
+  font-size: 20px; 
+  line-height: 0px; 
+  text-transform: lowercase; 
+  letter-spacing: 5px;
+  text-align: left;
+  color: #ffffff;}
 
 .icon-container{
   width:50%;
   margin: 0 auto;
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: 
-  "a b c";
-  grid-gap: 10px;
+  "a"
+  "b"
+  "c";
+  scale: 0.18;
+  grid-gap: 10x;
   position: absolute;
-  top: 10px;
+  top: 325px;
 }
-
+#web{
+  position: relative;
+  left: 150px;
+  top: 20px;
+}
 /* .circle{
   background-image: url("/assets/circle.svg");
   grid-area: a;
