@@ -46,6 +46,9 @@ body {
   margin-left:30px;
 
 }
+.text-container{
+  font-family: 'Jost', sans-serif;
+}
 
 .icon-container{
   width:50%;
