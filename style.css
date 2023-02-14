@@ -6,6 +6,10 @@
 
     }
 
+    a{
+      cursor: url("assets/Cursor_Icon.svg"), pointer;
+    }
+
 body {
     background-image: url('assets/Background_Website.png');
     background-repeat: no-repeat;
@@ -69,10 +73,10 @@ h1{
       font-family: 'Jost', sans-serif;
       font-weight: 300; 
       font-style: normal; 
-      font-size: 20px; 
+      font-size: 17px; 
       line-height: 50px; 
       text-transform: ; 
-      top: 118px;
+      top: 120px;
       letter-spacing: 2px;
       text-align: left;
       position: relative; Left: 135px;
@@ -90,7 +94,13 @@ h3{
   text-align: left;
   position: relative; Left: 50px;
   color: #ffffff;}
-
+h2.website {
+  left:160px;
+  top: 125px;
+}
+h2.email {
+  left:140px;
+}
 .icon-container{
   width:50%;
   margin: 0 auto;
@@ -139,7 +149,6 @@ svg{
 #icon-fill{
   fill:none;
 }
-
 
 
 .svg-interaction:hover{
