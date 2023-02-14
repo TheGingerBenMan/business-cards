@@ -6,7 +6,6 @@
 
     }
 
-
 body {
     background-image: url('assets/Background_Website.png');
     background-repeat: no-repeat;
@@ -25,7 +24,8 @@ body {
   /* adjust this to space out the cards */
   margin: 20px auto;
   overflow: hidden;
-  box-shadow: 2px 5px 15px 0px #17161694;
+  border-radius: 50px;
+  box-shadow: 2px 5px 15px 0px #171616c6;
   
 }
 
@@ -49,38 +49,40 @@ body {
 .text-container{
   font-family: 'Jost', sans-serif;
   position: absolute;
-  top: 300px;
+  top: 545px;
   left: auto;
+  z-index: 100;
 }
 h1{
   font-family: 'Jost', sans-serif;
   font-weight: 200; 
   font-style: normal; 
-  font-size: 50px; 
-  line-height: 0px; 
-  text-transform: lowercase; 
-  letter-spacing: 5px;
+  font-size: 27px; 
+  line-height: 75px; 
+  text-transform: capitalize; 
+  letter-spacing: 1px;
   text-align: left;
+  position: relative; left: 70px;
   color: #ffffff;}
 
   h2{
       font-family: 'Jost', sans-serif;
       font-weight: 300; 
       font-style: normal; 
-      font-size: 30px; 
-      line-height: 550px; 
-      text-transform: lowercase; 
+      font-size: 20px; 
+      line-height: 290px; 
+      text-transform: ; 
       letter-spacing: 2px;
       text-align: left;
-      position: relative; Left: 50px;
+      position: relative; Left: 135px;
       color: #ffffff;}
       
 h3{
   font-family: 'Jost', sans-serif;
   font-weight: 600; 
   font-style: normal; 
-  font-size: 30px; 
-  line-height: 500px; 
+  font-size: 35px; 
+  line-height: 0px; 
   text-transform: capitalize; 
   letter-spacing: 2px;
   text-align: left;
