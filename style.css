@@ -68,21 +68,23 @@ h1{
       font-weight: 300; 
       font-style: normal; 
       font-size: 30px; 
-      line-height: 0px; 
+      line-height: 550px; 
       text-transform: lowercase; 
-      letter-spacing: 5px;
+      letter-spacing: 2px;
       text-align: left;
+      position: relative; Left: 50px;
       color: #ffffff;}
       
 h3{
   font-family: 'Jost', sans-serif;
   font-weight: 600; 
   font-style: normal; 
-  font-size: 20px; 
-  line-height: 0px; 
-  text-transform: lowercase; 
-  letter-spacing: 5px;
+  font-size: 30px; 
+  line-height: 500px; 
+  text-transform: capitalize; 
+  letter-spacing: 2px;
   text-align: left;
+  position: relative; Left: 50px;
   color: #ffffff;}
 
 .icon-container{
@@ -95,15 +97,16 @@ h3{
   "a"
   "b"
   "c";
-  scale: 0.18;
+  scale: 0.17;
   grid-gap: 10x;
   position: absolute;
-  top: 325px;
+  top: 335px;
+  left: -40px;
 }
 #web{
   position: relative;
-  left: 150px;
-  top: 20px;
+  left: 120px;
+  top: 30px;
 }
 /* .circle{
   background-image: url("/assets/circle.svg");
