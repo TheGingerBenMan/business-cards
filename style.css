@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* border: 1px solid blue; */
+    /* border: 1px solid rgb(255, 0, 0); */
 
     }
 
@@ -70,11 +70,13 @@ h1{
       font-weight: 300; 
       font-style: normal; 
       font-size: 20px; 
-      line-height: 290px; 
+      line-height: 50px; 
       text-transform: ; 
+      top: 118px;
       letter-spacing: 2px;
       text-align: left;
       position: relative; Left: 135px;
+      padding-top:;
       color: #ffffff;}
       
 h3{
