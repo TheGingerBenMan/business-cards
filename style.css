@@ -10,14 +10,14 @@
       cursor: url("assets/Cursor_Icon.svg"), pointer;
     }
 
-    /* @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1200px) {
       body{
        transform-origin: top;
-       transform: scale(1);
+       transform: scale(0.9);
        margin:0 auto;
       }
      
-       } */
+       }
 
 body {
     background-image: url('assets/Background_Website.png');
@@ -32,6 +32,7 @@ body {
 .front-side {
   width: 576px;
   height: 936px;
+  transform: scale(0.6);
   position: relative;
   /* adjust this to space out the cards */
   margin: 20px auto;
@@ -46,7 +47,7 @@ body {
   height: 936px;
   position: relative;
   /* adjust this to space out the cards */
-  margin: 20px auto;
+  margin: 0px auto;
   overflow: hidden;
   border-radius: 50px;
   box-shadow: 2px 5px 15px 0px #171616c6;
@@ -91,7 +92,7 @@ h1{
 
   h2{
       font-family: 'Jost', sans-serif;
-      font-weight: 300; 
+      font-weight: 400; 
       font-style: normal; 
       font-size: 17px; 
       line-height: 50px; 
