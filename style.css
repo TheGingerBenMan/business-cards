@@ -8,12 +8,13 @@
 
     a{
       cursor: url("assets/Cursor_Icon.svg"), pointer;
+      transform: scale(0.5);
     }
 
     @media screen and (max-width: 1200px) {
       body{
-       transform-origin: top;
-       transform: scale(0.9);
+       transform-origin: center;
+       transform: scale(1.0);
        margin:0 auto;
       }
      
@@ -40,6 +41,12 @@ body {
   border-radius: 50px;
   box-shadow: 2px 5px 15px 0px #171616c6;
 
+}
+
+.Linkedin {
+  position: relative;
+  transform: scale(5);
+  top: -770px;
 }
 
 .back-side {
@@ -82,7 +89,7 @@ h1{
   font-family: 'Jost', sans-serif;
   font-weight: 200; 
   font-style: normal; 
-  font-size: 27px; 
+  font-size: 28px; 
   line-height: 75px; 
   text-transform: capitalize; 
   letter-spacing: 1px;
@@ -94,31 +101,34 @@ h1{
       font-family: 'Jost', sans-serif;
       font-weight: 400; 
       font-style: normal; 
-      font-size: 17px; 
+      font-size: 22px; 
       line-height: 50px; 
       top: 120px;
       letter-spacing: 2px;
       text-align: left;
-      position: relative; Left: 135px;
+      position: relative; Left: 150px;
       color: #ffffff;}
       
 h3{
   font-family: 'Jost', sans-serif;
   font-weight: 600; 
   font-style: normal; 
-  font-size: 35px; 
+  font-size: 36px; 
   line-height: 0px; 
   text-transform: capitalize; 
   letter-spacing: 2px;
   text-align: left;
   position: relative; Left: 50px;
   color: #ffffff;}
+
 h2.website {
-  left:160px;
-  top: 125px;
+  top: 160px;
 }
 h2.email {
-  left:140px;
+  top: 155px;
+}
+h2.Linkey {
+  top: 5px;
 }
 .icon-container{
   width:50%;
@@ -130,17 +140,16 @@ h2.email {
   "a"
   "b"
   "c";
-  scale: 0.17;
+  scale: 0.18;
   grid-gap: 10x;
   position: absolute;
-  top: 335px;
-  left: -40px;
+  top: 340px;
+  left: -35px;
 }
-#web{
+/* #web{
   position: relative;
-  left: 120px;
   top: 30px;
-}
+} */
 
 /* Flip */
 
