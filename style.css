@@ -43,12 +43,6 @@ body {
 
 }
 
-.Linkedin {
-  position: relative;
-  transform: scale(5);
-  top: -770px;
-}
-
 .back-side {
   width: 576px;
   height: 936px;
@@ -90,7 +84,7 @@ h1{
   font-weight: 200; 
   font-style: normal; 
   font-size: 28px; 
-  line-height: 75px; 
+  line-height: 65px; 
   text-transform: capitalize; 
   letter-spacing: 1px;
   text-align: left;
@@ -102,7 +96,7 @@ h1{
       font-weight: 400; 
       font-style: normal; 
       font-size: 22px; 
-      line-height: 50px; 
+      line-height: 45px; 
       top: 120px;
       letter-spacing: 2px;
       text-align: left;
@@ -121,15 +115,14 @@ h3{
   position: relative; Left: 50px;
   color: #ffffff;}
 
-h2.website {
-  top: 160px;
-}
-h2.email {
-  top: 155px;
-}
-h2.Linkey {
-  top: 5px;
-}
+  .email {
+    top: 145px;
+  }
+
+  .website {
+    top: 155px;
+  }
+
 .icon-container{
   width:50%;
   margin: 0 auto;
@@ -143,13 +136,14 @@ h2.Linkey {
   scale: 0.18;
   grid-gap: 10x;
   position: absolute;
-  top: 340px;
+  top: 345px;
   left: -35px;
 }
-/* #web{
+#web{
   position: relative;
+  /* left: 120px; */
   top: 30px;
-} */
+}
 
 /* Flip */
 
