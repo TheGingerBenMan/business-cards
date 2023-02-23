@@ -10,12 +10,14 @@
       cursor: url("assets/Cursor_Icon.svg"), pointer;
     }
 
-    @media screen and (max-width: 1200px) {
-      body{
-       transform-origin: center;
-       transform: scale(1.0);
-       margin:0 auto;
-       position: fixed;
+@media screen and (max-width: 1200px) {
+body{
+transform-origin: center;
+transform: scale(1);
+margin:0 auto;
+transform: translateX(-20%); 
+
+       
       }
      
        }
