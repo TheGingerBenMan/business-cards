@@ -8,7 +8,6 @@
 
     a{
       cursor: url("assets/Cursor_Icon.svg"), pointer;
-      transform: scale(0.5);
     }
 
     @media screen and (max-width: 1200px) {
